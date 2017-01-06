@@ -1,0 +1,158 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<link href="/resources/Lato-Regular.ttf"/>
+		<link rel="stylesheet"href="/resources/font-awesome/css/font-awesome.css"/>
+		<script src="/resources/jquery.min.js"></script>
+		<style>
+			.container {
+				width: 230px;
+			}
+			.sidebar {
+				width: 30px;
+				min-height: 1px;
+				display: inline-block;
+				float: left;
+			}
+			
+			.sidebar .button {
+				width: 100%;
+				font-size: 16px;
+				padding: 2px;
+				box-sizing: border-box;
+			}
+			
+			.body {
+				width: 200px;
+				display: inline-block;
+				float: left;
+			}
+			
+			.color {
+				font-family: "Lato";
+				color: white;
+				width: 100%;
+				background-color: #c9c9c9;
+				padding: 8px 12px;
+				text-transform: uppercase;
+				box-sizing: border-box;
+				display: inline-block;
+				position: relative;
+				text-decoration: none;
+			}
+			
+			.color.hover {
+				background-color: #909090
+			}
+			
+			.color span {
+				float: right;
+			}
+			
+			.color.primary {
+				background-color: #669900;
+			}
+			
+			.color.primary.hover {
+				background-color: #77b800;
+			}
+			
+			.color.uktshirt {
+				background-color: #960749;
+			}
+			
+			.color.uktshirt.hover {
+				background-color: #ad0b56;
+			}
+			
+			.color.negative {
+				background-color: #DC042B;
+			}
+			
+			.color.dark {
+				background-color: #323232;
+			}
+			
+			.color.darker {
+				background-color: #212121;
+			}
+			
+			.color.light {
+				background-color: #ececec;
+				color: #323232;
+			}
+			
+			.color.lighter {
+				background-color: #fafafa;
+				color: #323232;
+			}
+			
+			.copied {
+				font-size: 10px;
+				background-color: #323232;
+				color: white;
+				position: absolute;
+				top: 6px;
+				right: 6px;
+				z-index: 100;
+				padding: 4px;
+				border-radius: 2px;
+				text-transform: none;
+			}
+			
+			.copied i {
+				color: #669900;
+			}
+			
+			.clear {
+				clear: both;
+			}
+		</style>
+		<script src="/resources/source.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="sidebar">
+				<div class="button">
+					<i class="fa fa-eyedropper"></i>
+				</div>
+			</div>
+			<div class="body">
+				<a class="color primary" href="#">
+					Primary
+				</a>
+				<a class="color primary hover" href="#">
+					Primary Hover
+				</a>
+				<a class="color" href="#">
+					Secondary
+				</a>
+				<a class="color hover" href="#">
+					Secondary
+				</a>
+				<a class="color lighter" href="#">
+					Lighter
+				</a>
+				<a class="color light" href="#">
+					Light
+				</a>
+				<a class="color dark" href="#">
+					Dark
+				</a>
+				<a class="color darker" href="#">
+					Darker
+				</a>
+				<a class="color uktshirt" href="#">
+					Primary (UKTshirt)
+				</a>
+				<a class="color uktshirt hover" href="#">
+					Primary (UKTshirt)
+				</a>
+				<a class="color negative" href="#">
+					Negative
+				</a>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</body>
+</html>

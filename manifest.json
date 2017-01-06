@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2,
+	"name" : "CoderToolbox",
+	"description" : "A collection of useful coder resources",
+	"version": "1.0",
+	"browser_action":{
+		"default_icon": "icon.png",
+		"default_popup":"body.html"
+	},
+	"permissions":[
+		"activeTab",
+		"https://ajax.googleapis.com/"
+	]
+}
